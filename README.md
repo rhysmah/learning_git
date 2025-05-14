@@ -1,2 +1,2 @@
-# learning_git
+# Learning Git
 A repository of Git learnings
