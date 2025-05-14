@@ -56,7 +56,11 @@ The Local Repository is the Git repository on your local machine. It contains al
 #### Staging Area
 The Staging Area acts as a buffer between your Working Directory and the Local Repository. You can make changes to your files, which can then be added to the Staging Area (`git add`) but aren't yet committed to the Local Repository. Here, you can review and select which changes you want to commit, i.e., which changes are added to the official history of the project.
 
-
-The Staging Area is a _temporary_ area where you can add files before committing them. You can make changes to local files that aren't automatically committed; instead, they're stored in the staging area until you're ready to commit them.
+The Staging Area is found in the _Index_ directory inside the `.git` directory.
 
 #### Commit History
+
+The Commit History is found in the _Objects` directory inside the `.git` directory.
+
+##### What is a Commit?
+A commit is a snapshot of a project at a specific point in time. It contains all the changes made to the project since the last commit. Each commit has a uique 40-character commit hash, or commit ID, that identifies it. Only the first seven characters are needed to identify a commit.
